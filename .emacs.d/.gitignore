@@ -1,0 +1,12 @@
+elisp/nxhtml/.bzr/*
+*.elc
+/elisp/nxhtml/etc/schema/xhtml-loader.rnc
+auto-save-list/*
+ac-comphist.dat
+tramp
+elisp/environment.el
+session.*
+/environment.el
+el-get/*
+elpa/*
+/url/cookies
