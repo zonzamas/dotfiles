@@ -1,0 +1,4 @@
+# name: notify => .. ,
+# key: notify
+# --
+notify => ${1:$$(capitalize yas/text)},

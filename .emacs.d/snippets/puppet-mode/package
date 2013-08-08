@@ -1,0 +1,6 @@
+# name: package { ... }
+# key: package
+# --
+package { "${1:name}":
+  ensure  => ${2:present},
+}

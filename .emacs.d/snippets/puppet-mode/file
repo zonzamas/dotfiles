@@ -1,0 +1,8 @@
+# key: file
+# --
+file{'$1':
+  ensure  => ${2:present},
+  mode    => '${3:0777}',
+  owner   => '${4:root}',
+  group   => '${5:root}',$0
+}
