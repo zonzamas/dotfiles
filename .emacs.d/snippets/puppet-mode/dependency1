@@ -1,4 +1,0 @@
-# name: ... -> ....
-# key: ->
-# --
-${1:$$(capitalize yas/text)} -> ${2:$$(capitalize yas/text)} $0

@@ -1,3 +1,0 @@
-# key: content
-# --
-content => template("\${module_name}/$1"),$0

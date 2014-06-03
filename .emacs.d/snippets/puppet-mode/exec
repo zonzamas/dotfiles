@@ -1,6 +1,0 @@
-# key: exec
-# --
-exec{'$1':
-  command => "$2",
-  path    => ['/bin','/usr/bin']$0
-}
