@@ -15,3 +15,4 @@
 	          '("\\(Capfile\\|Gemfile\\(?:\\.[a-zA-Z0-9._-]+\\)?\\|[rR]akefile\\)\\'" . ruby-mode))
 
 (pending-delete-mode)
+(auto-complete-mode)
