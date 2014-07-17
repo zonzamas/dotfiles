@@ -12,3 +12,5 @@
 (depends-on "ruby-hash-syntax")
 (depends-on "rinari")
 (depends-on "yaml-mode")
+(depends-on "expand-region")
+(depends-on "erlang")
