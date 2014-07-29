@@ -6,3 +6,4 @@ cp -R .emacs.d ~/
 cd ~/.emacs.d
 ~/.cask/bin/cask
 cd -
+cp .gitconfig ~/.gitconfig
