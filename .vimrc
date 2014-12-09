@@ -35,3 +35,10 @@ filetype plugin indent on    " required
 set tabstop=2 shiftwidth=2 expandtab
 syntax enable
 set autochdir
+
+if exists(":Tabularize")
+  nmap <leader>a= :Tabularize /=><CR>
+  vmap <leader>a= :Tabularize /=><CR>
+endif
+
+nnoremap <space> i<space><esc>
