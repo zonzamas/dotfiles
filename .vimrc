@@ -28,6 +28,7 @@ Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'wincent/Command-T'
+Plugin 'klen/python-mode'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -42,3 +43,9 @@ if exists(":Tabularize")
 endif
 
 nnoremap <space> i<space><esc>
+
+let g:pymode_folding = 0
+let g:pymode_options_max_line_length = 120
+
+set list listchars=tab:..,trail:☠
+set nowrap
