@@ -8,6 +8,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+Bundle 'tpope/vim-commentary'
 Plugin 'ervandew/supertab'
 Plugin 'garbas/vim-snipmate'
 Plugin 'gmarik/Vundle.vim'
@@ -26,6 +27,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-rails.git'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
+Bundle 'tpope/vim-commentary'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'wincent/Command-T'
 Plugin 'klen/python-mode'
