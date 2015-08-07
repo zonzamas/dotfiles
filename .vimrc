@@ -50,3 +50,5 @@ let g:pymode_options_max_line_length = 120
 
 set list listchars=tab:..,trail:☠
 set nowrap
+
+set noswapfile
