@@ -8,7 +8,6 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Bundle 'tpope/vim-commentary'
 Plugin 'ervandew/supertab'
 Plugin 'garbas/vim-snipmate'
 Plugin 'gmarik/Vundle.vim'
@@ -30,6 +29,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'wincent/Command-T'
 Plugin 'klen/python-mode'
+Plugin 'scrooloose/nerdtree'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -43,12 +43,14 @@ if exists(":Tabularize")
   vmap <leader>a= :Tabularize /=><CR>
 endif
 
-nnoremap <space> i<space><esc>
+map <C-n> :NERDTreeToggle<CR>
 
 let g:pymode_folding = 0
-let g:pymode_options_max_line_length = 120
+let g:pymode_options_max_line_length = 120 
+nnoremap <space> i<space><esc>
 
 set list listchars=tab:..,trail:☠
+
 set nowrap
 
 set noswapfile
