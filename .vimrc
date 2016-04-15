@@ -30,6 +30,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'wincent/Command-T'
 Plugin 'klen/python-mode'
 Plugin 'scrooloose/nerdtree'
+Plugin 'nelstrom/vim-visual-star-search'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
