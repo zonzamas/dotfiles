@@ -1,9 +1,5 @@
 #!/bin/bash
 
-sudo apt-get install emacs24
-curl -fsSkL https://raw.github.com/cask/cask/master/go | python
-cp -R .emacs.d ~/
-cd ~/.emacs.d
-~/.cask/bin/cask
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+cp .vimrc ~/.vimrc
 cd -
-cp .gitconfig ~/.gitconfig

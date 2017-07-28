@@ -55,3 +55,5 @@ set list listchars=tab:..,trail:☠
 set nowrap
 
 set noswapfile
+
+autocmd BufEnter * lcd %:p:h
